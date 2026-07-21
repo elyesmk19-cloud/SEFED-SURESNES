@@ -1,0 +1,800 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Cordonnerie Serrurerie SEFED à Suresnes · Cordonnier et serrurier noté 4,9/5</title>
+<meta name="description" content="Cordonnerie traditionnelle et serrurerie à Suresnes : ressemelage, réparation de chaussures, clés, badges d'immeuble, dépannage. 4,9/5 sur plus de 290 avis Google. Tél. 01 40 99 10 01, 11 Allée du 8 Mai 1945.">
+<script>document.documentElement.classList.add('js')</script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,600;9..144,700&family=Alegreya+Sans:ital,wght@0,400;0,500;0,700;1,400&display=swap" rel="stylesheet">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "LocalBusiness",
+  "name": "Cordonnerie Serrurerie SEFED",
+  "description": "Cordonnerie traditionnelle et serrurerie à Suresnes : ressemelage, réparation de chaussures et maroquinerie, reproduction de clés et badges d'immeuble, dépannage serrurerie, tampons et gravures, plaques minéralogiques, plastification.",
+  "image": "assets/ressemelage-cuir.jpg",
+  "telephone": "+33140991001",
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "11 Allée du 8 Mai 1945",
+    "postalCode": "92150",
+    "addressLocality": "Suresnes",
+    "addressCountry": "FR"
+  },
+  "openingHoursSpecification": [
+    {
+      "@type": "OpeningHoursSpecification",
+      "dayOfWeek": ["Tuesday","Wednesday","Thursday","Friday","Saturday"],
+      "opens": "09:00",
+      "closes": "13:00"
+    },
+    {
+      "@type": "OpeningHoursSpecification",
+      "dayOfWeek": ["Tuesday","Wednesday","Thursday","Friday","Saturday"],
+      "opens": "14:30",
+      "closes": "19:00"
+    }
+  ],
+  "paymentAccepted": "Espèces, Chèque",
+  "currenciesAccepted": "EUR",
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": "4.9",
+    "bestRating": "5",
+    "reviewCount": "290"
+  },
+  "amenityFeature": {
+    "@type": "LocationFeatureSpecification",
+    "name": "Entrée accessible en fauteuil roulant",
+    "value": true
+  },
+  "sameAs": ["https://www.facebook.com/cordonnerieSEFED92/"]
+}
+</script>
+<style>
+  :root{
+    --paper:#F7F1E5;
+    --paper-deep:#EFE5D2;
+    --ink:#262016;
+    --ink-soft:#5C5340;
+    --brass:#98650F;
+    --cta:#A34C12;
+    --cta-dark:#8A3F0D;
+    --card-dark:#2B2519;
+    --cream-on-dark:#F3EBDA;
+    --line:#D8CBB2;
+    --stitch:#C2A878;
+    --radius:14px;
+    --shadow:0 12px 32px rgba(38,32,22,.14);
+  }
+  *{margin:0;padding:0;box-sizing:border-box}
+  html{scroll-behavior:smooth}
+  @media (prefers-reduced-motion: reduce){
+    html{scroll-behavior:auto}
+    *,*::before,*::after{animation:none!important;transition:none!important}
+  }
+  body{
+    font-family:"Alegreya Sans",system-ui,sans-serif;
+    font-size:1.0625rem;
+    line-height:1.6;
+    color:var(--ink);
+    background:var(--paper);
+    overflow-x:hidden;
+  }
+  /* grain papier */
+  body::before{
+    content:"";
+    position:fixed;inset:0;
+    pointer-events:none;
+    z-index:0;
+    opacity:.05;
+    background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='140' height='140'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.85' numOctaves='2'/%3E%3C/filter%3E%3Crect width='140' height='140' filter='url(%23n)' opacity='.7'/%3E%3C/svg%3E");
+  }
+  main,header,footer{position:relative;z-index:1}
+  img{max-width:100%;display:block}
+  a{color:var(--brass)}
+  :focus-visible{outline:3px solid var(--cta);outline-offset:3px;border-radius:4px}
+
+  h1,h2,h3{font-family:"Fraunces",Georgia,serif;line-height:1.12;font-weight:700;letter-spacing:-.01em;text-wrap:balance}
+  p{text-wrap:pretty}
+  h2{font-size:clamp(1.65rem,4vw,2.4rem);margin-bottom:.5rem}
+  .kicker{
+    font-size:.82rem;font-weight:700;letter-spacing:.16em;text-transform:uppercase;
+    color:var(--brass);margin-bottom:.9rem;display:flex;align-items:center;gap:.6rem;
+  }
+  .kicker::before{content:"";width:2.2rem;height:2px;background:var(--brass);flex:none}
+  .wrap{max-width:1120px;margin:0 auto;padding:0 1.25rem}
+  section{padding:clamp(3rem,7vw,4.4rem) 0}
+  .lead{color:var(--ink-soft);max-width:42em}
+  .icon{width:1.35em;height:1.35em;flex:none;fill:none;stroke:currentColor;stroke-width:1.7;stroke-linecap:round;stroke-linejoin:round}
+
+  /* ============ header ============ */
+  .topbar{
+    display:flex;align-items:center;justify-content:space-between;gap:1rem;
+    padding:1rem 0;
+  }
+  .brand{display:flex;align-items:center;gap:.75rem;color:var(--ink);text-decoration:none}
+  .brand .emblem{
+    flex:none;width:46px;height:46px;border-radius:11px;
+    background:var(--card-dark);
+    display:flex;align-items:center;justify-content:center;
+    box-shadow:0 4px 12px rgba(38,32,22,.18);
+  }
+  .brand .emblem svg{width:26px;height:26px;color:#F0C46A;fill:none;stroke:currentColor;stroke-width:1.7;stroke-linecap:round;stroke-linejoin:round}
+  .brand-text{display:flex;flex-direction:column;justify-content:center}
+  .brand-name{font-family:"Fraunces",serif;font-weight:700;font-size:1.1rem;line-height:1.15}
+  .brand small{font-family:"Alegreya Sans",sans-serif;font-weight:600;font-size:.72rem;letter-spacing:.15em;text-transform:uppercase;color:var(--brass);line-height:1.4}
+  .topbar-tel{
+    display:inline-flex;align-items:center;gap:.55rem;
+    font-weight:700;font-size:1.05rem;color:var(--ink);text-decoration:none;
+    border:2px solid var(--ink);border-radius:999px;padding:.55rem 1.1rem;
+    min-height:44px;
+    transition:background .2s,color .2s;
+    white-space:nowrap;
+  }
+  .topbar-tel:hover{background:var(--ink);color:var(--paper)}
+  @media (max-width:560px){.topbar-tel span.lbl{display:none}}
+
+  /* ============ hero ============ */
+  .hero{padding:2.2rem 0 3.6rem}
+  .hero-grid{display:grid;gap:2.5rem;align-items:center}
+  @media (min-width:900px){.hero-grid{grid-template-columns:1.1fr .9fr;gap:3.5rem}}
+  .hero h1{font-size:clamp(1.8rem,3.7vw,2.35rem);margin:.5rem 0 1.1rem}
+  .hero h1 span{display:block}
+  .hero h1 em{font-style:italic;color:var(--brass)}
+  .rating-badge{
+    display:inline-flex;align-items:center;gap:.6rem;
+    background:#fff;
+    border:1px solid var(--line);
+    border-radius:999px;padding:.45rem 1rem .45rem .7rem;
+    box-shadow:0 4px 14px rgba(38,32,22,.08);
+    font-weight:700;
+  }
+  .stars{display:inline-flex;gap:2px}
+  .stars svg{width:17px;height:17px;fill:#E8A016;stroke:#B87708;stroke-width:.8}
+  .rating-badge .count{font-weight:500;color:var(--ink-soft)}
+  .hero .sub{margin:0 0 1.6rem;color:var(--ink-soft);font-size:1.13rem;max-width:36em}
+  .cta-row{display:flex;flex-wrap:wrap;gap:.9rem;align-items:stretch}
+  .btn-call{
+    display:inline-flex;flex-direction:column;justify-content:center;
+    background:var(--cta);color:#fff;text-decoration:none;
+    border-radius:var(--radius);
+    padding:.85rem 1.6rem;
+    box-shadow:0 10px 24px rgba(163,76,18,.35);
+    transition:transform .15s, background .2s;
+    min-height:60px;
+  }
+  .btn-call:hover{background:var(--cta-dark);transform:translateY(-2px)}
+  .btn-call .num{display:flex;align-items:center;justify-content:center;gap:.6rem;font-size:1.4rem;font-weight:700;letter-spacing:.02em;font-variant-numeric:tabular-nums;white-space:nowrap}
+  .btn-call .hint{font-size:.8rem;opacity:.92;margin-top:.05rem}
+  .btn-ghost{
+    display:inline-flex;align-items:center;gap:.55rem;
+    color:var(--ink);text-decoration:none;font-weight:700;
+    border:2px solid var(--ink);border-radius:var(--radius);
+    padding:.85rem 1.3rem;min-height:60px;
+    transition:background .2s,color .2s;
+  }
+  .btn-ghost:hover{background:var(--ink);color:var(--paper)}
+  .hero-note{display:flex;align-items:center;gap:.5rem;margin-top:1.3rem;color:var(--ink-soft);font-size:.98rem}
+  .hero-note .icon{color:var(--brass)}
+  /* photo encadrée façon établi */
+  .photo-frame{
+    position:relative;
+    background:#fff;
+    padding:.7rem;
+    border-radius:var(--radius);
+    box-shadow:var(--shadow);
+    transform:rotate(1.2deg);
+  }
+  .photo-frame img{border-radius:8px;width:100%;height:100%;object-fit:cover}
+  .photo-frame::after{
+    content:"";position:absolute;inset:.35rem;
+    border:2px dashed var(--stitch);
+    border-radius:11px;pointer-events:none;
+  }
+  .photo-frame figcaption{
+    position:absolute;left:1.2rem;bottom:1.2rem;
+    background:rgba(38,32,22,.82);color:var(--cream-on-dark);
+    font-size:.85rem;padding:.35rem .8rem;border-radius:6px;max-width:80%;
+  }
+  .hero .photo-frame{aspect-ratio:16/10}
+  @media (max-width:899px){.hero .photo-frame{aspect-ratio:16/9}}
+
+  /* ============ bandeau urgence ============ */
+  .urgence{background:var(--card-dark);color:var(--cream-on-dark);padding:2.6rem 0}
+  .urgence .wrap{display:flex;flex-direction:column;align-items:center;text-align:center;gap:1.5rem}
+  .urgence ul{list-style:none;display:flex;flex-wrap:wrap;justify-content:center;gap:.9rem 2.2rem}
+  .urgence li{display:flex;align-items:center;gap:.6rem;font-family:"Fraunces",serif;font-size:1.1rem;font-weight:600}
+  .urgence li .icon{color:#E8A016}
+  .urgence-cta{display:flex;flex-wrap:wrap;align-items:center;justify-content:center;gap:.35rem .9rem;font-size:1.05rem;color:#CBBFA4}
+  .urgence-cta .tel{
+    display:inline-flex;align-items:center;gap:.55rem;
+    background:var(--cta);color:#fff;text-decoration:none;font-weight:700;
+    font-variant-numeric:tabular-nums;
+    border-radius:10px;padding:.6rem 1.2rem;min-height:46px;
+    box-shadow:0 8px 20px rgba(163,76,18,.4);transition:background .2s,transform .15s;
+  }
+  .urgence-cta .tel:hover{background:var(--cta-dark);transform:translateY(-2px)}
+  .urgence-cta .tel .icon{color:#fff}
+
+  /* ============ services ============ */
+  .services-grid{display:grid;gap:1.6rem;margin-top:2.3rem}
+  @media (min-width:820px){.services-grid{grid-template-columns:1fr 1fr}}
+  .svc{
+    border-radius:var(--radius);
+    padding:2rem 1.8rem;
+    position:relative;
+    box-shadow:var(--shadow);
+  }
+  .svc h3{font-size:1.45rem;display:flex;align-items:center;gap:.7rem;margin-bottom:.4rem}
+  .svc h3 .icon{width:1.6em;height:1.6em}
+  .svc .svc-tag{font-size:.78rem;font-weight:700;letter-spacing:.14em;text-transform:uppercase;margin-bottom:1rem}
+  .svc ul{list-style:none;margin-top:1.1rem;display:grid;gap:.65rem}
+  .svc li{display:flex;gap:.7rem;align-items:flex-start}
+  .svc li::before{content:"";flex:none;width:.85rem;height:2px;border-radius:2px;margin-top:.72em;background:var(--brass)}
+  .svc-serrurerie{background:var(--card-dark);color:var(--cream-on-dark)}
+  .svc-serrurerie .svc-tag{color:#F0C46A}
+  .svc-serrurerie li::before{background:#F0C46A}
+  .svc-serrurerie .svc-note{margin-top:1.4rem;padding-top:1.2rem;border-top:1px dashed rgba(240,196,106,.4);font-size:.98rem;color:#CBBFA4}
+  .svc-serrurerie .svc-note a{color:#F0C46A;font-weight:700}
+  .svc-cordonnerie{background:#fff;border:1px solid var(--line)}
+  .svc-cordonnerie .svc-tag{color:var(--brass)}
+  .svc-cordonnerie .svc-photo{margin-top:1.4rem;border-radius:9px;overflow:hidden;position:relative}
+  .svc-cordonnerie .svc-photo img{aspect-ratio:16/9;object-fit:cover;width:100%;height:auto}
+  .svc-cordonnerie .svc-photo figcaption{position:absolute;left:.7rem;bottom:.7rem;background:rgba(38,32,22,.82);color:var(--cream-on-dark);font-size:.82rem;padding:.3rem .7rem;border-radius:6px}
+  .annexe{
+    margin-top:1.6rem;
+    border:1px dashed var(--stitch);
+    border-radius:var(--radius);
+    padding:1.1rem 1.5rem;
+    display:flex;flex-wrap:wrap;align-items:center;gap:.4rem 1rem;
+    color:var(--ink-soft);font-size:.98rem;
+    background:var(--paper-deep);
+  }
+  .annexe strong{color:var(--ink)}
+  .annexe span{white-space:nowrap}
+  .annexe .dot{color:var(--brass)}
+
+  /* ============ offres / transparence ============ */
+  .offres{background:var(--paper-deep)}
+  .offres-grid{display:grid;gap:1.4rem;margin-top:2.2rem}
+  @media (min-width:820px){.offres-grid{grid-template-columns:repeat(3,1fr)}}
+  .offre{
+    background:#fff;border:1px solid var(--line);border-radius:var(--radius);
+    padding:1.7rem 1.5rem;
+  }
+  .offre .icon{width:2rem;height:2rem;color:var(--brass);margin-bottom:.9rem}
+  .offre h3{font-size:1.18rem;margin-bottom:.5rem}
+  .offre p{color:var(--ink-soft);font-size:1rem}
+
+  /* ============ confiance ============ */
+  .confiance-head{display:grid;gap:2rem;align-items:center;margin-bottom:2.6rem}
+  @media (min-width:900px){.confiance-head{grid-template-columns:auto 1fr;gap:4rem}}
+  .score{
+    text-align:center;
+    background:var(--card-dark);color:var(--cream-on-dark);
+    border-radius:var(--radius);padding:2rem 2.6rem;
+    box-shadow:var(--shadow);
+    transform:rotate(-1.2deg);
+  }
+  .score .val{font-family:"Fraunces",serif;font-size:4rem;font-weight:700;line-height:1;color:#F0C46A}
+  .score .stars{margin:.6rem 0 .4rem;justify-content:center;display:flex}
+  .score .stars svg{width:22px;height:22px}
+  .score p{font-size:.95rem;color:#CBBFA4}
+  .score strong{color:var(--cream-on-dark)}
+  .avis-grid{display:grid;gap:1.3rem}
+  @media (min-width:820px){.avis-grid{grid-template-columns:1fr 1fr}}
+  .avis{
+    background:#fff;border:1px solid var(--line);border-radius:var(--radius);
+    padding:1.5rem 1.5rem 1.3rem;position:relative;
+  }
+  .avis::before{
+    content:"“";
+    font-family:"Fraunces",serif;font-size:3.4rem;line-height:1;
+    color:var(--stitch);position:absolute;top:.6rem;right:1.1rem;
+  }
+  .avis blockquote{font-family:"Fraunces",serif;font-size:1.12rem;font-weight:400;font-style:italic;line-height:1.45;padding-right:2rem}
+  .avis .theme{display:inline-flex;align-items:center;gap:.45rem;margin-top:.9rem;font-size:.85rem;font-weight:700;letter-spacing:.08em;text-transform:uppercase;color:var(--brass)}
+  .confiance-photos{display:grid;gap:1.6rem;margin-top:2.8rem}
+  @media (min-width:820px){.confiance-photos{grid-template-columns:1fr 1fr}}
+  .confiance-photos .photo-frame{transform:rotate(-.8deg);aspect-ratio:4/3}
+  .confiance-photos .photo-frame:last-child{transform:rotate(.9deg)}
+  .local-strip{
+    margin-top:2.6rem;display:flex;flex-wrap:wrap;gap:.8rem 2.2rem;align-items:center;
+    color:var(--ink-soft);
+  }
+  .local-strip span{display:inline-flex;align-items:center;gap:.55rem;font-weight:500}
+  .local-strip .icon{color:var(--brass)}
+
+  /* ============ FAQ ============ */
+  .faq{background:var(--paper-deep)}
+  .faq-list{margin-top:2.2rem;display:grid;gap:.8rem;max-width:820px}
+  details{
+    background:#fff;border:1px solid var(--line);border-radius:10px;
+    overflow:hidden;
+  }
+  summary{
+    cursor:pointer;list-style:none;
+    display:flex;justify-content:space-between;align-items:center;gap:1rem;
+    padding:1.05rem 1.3rem;
+    font-family:"Fraunces",serif;font-weight:600;font-size:1.06rem;
+    min-height:44px;
+  }
+  summary::-webkit-details-marker{display:none}
+  summary .chev{flex:none;width:1.15rem;height:1.15rem;color:var(--brass);transition:transform .2s}
+  details[open] summary .chev{transform:rotate(180deg)}
+  details .rep{padding:0 1.3rem 1.2rem;color:var(--ink-soft)}
+  details .rep a{font-weight:700}
+
+  /* ============ contact ============ */
+  .contact-grid{display:grid;gap:2rem;margin-top:2.3rem}
+  @media (min-width:900px){.contact-grid{grid-template-columns:minmax(0,1.05fr) minmax(0,1fr);gap:2.6rem;align-items:stretch}}
+  .contact-card{
+    background:#fff;border:1px solid var(--line);border-radius:var(--radius);
+    padding:2rem 1.8rem;box-shadow:var(--shadow);
+  }
+  .contact-card .btn-call{width:100%;margin:.4rem 0 1.6rem;align-items:center;text-align:center}
+  .contact-line{display:flex;gap:.8rem;align-items:flex-start;padding:.85rem 0;border-top:1px dashed var(--line)}
+  .contact-line .icon{color:var(--brass);margin-top:.2rem}
+  .contact-line strong{display:block}
+  .contact-line a{font-weight:700}
+  .horaires{width:100%;border-collapse:collapse;margin-top:.3rem;font-variant-numeric:tabular-nums}
+  .horaires th,.horaires td{text-align:left;padding:.3rem 0;font-weight:400}
+  .horaires th{font-weight:700;padding-right:1.2rem;white-space:nowrap}
+  .horaires .off td{color:var(--ink-soft);font-style:italic}
+  .map-band{
+    position:relative;
+    border-radius:var(--radius);overflow:hidden;
+    border:1px solid var(--line);box-shadow:var(--shadow);
+    min-height:340px;height:100%;
+  }
+  .map-band iframe{display:block;width:100%;height:100%;min-height:340px;border:0}
+  .map-chip{
+    position:absolute;left:1.1rem;bottom:1.1rem;
+    display:flex;align-items:center;gap:1rem;flex-wrap:wrap;
+    background:#fff;border-radius:12px;padding:.85rem 1.05rem;
+    box-shadow:0 12px 30px rgba(38,32,22,.28);
+    max-width:calc(100% - 2.2rem);
+  }
+  .map-chip .icon{color:var(--cta);width:1.7em;height:1.7em}
+  .map-chip strong{display:block;line-height:1.3}
+  .map-chip small{color:var(--ink-soft);font-size:.92rem}
+  .chip-btn{
+    display:inline-flex;align-items:center;gap:.45rem;
+    background:var(--cta);color:#fff;text-decoration:none;font-weight:700;
+    border-radius:9px;padding:.6rem 1.05rem;min-height:44px;
+    transition:background .2s;
+  }
+  .chip-btn:hover{background:var(--cta-dark)}
+  @media (max-width:560px){
+    .map-chip{left:.7rem;right:.7rem;bottom:.7rem;max-width:none;justify-content:space-between}
+  }
+
+  /* ============ footer ============ */
+  footer{
+    background:var(--card-dark);color:#CBBFA4;
+    padding:2.6rem 0 2.2rem;margin-top:0;font-size:.95rem;
+  }
+  footer .wrap{display:flex;flex-wrap:wrap;gap:1.2rem 3rem;justify-content:space-between;align-items:center}
+  footer .id{font-family:"Fraunces",serif;color:var(--cream-on-dark);font-weight:600;font-size:1.05rem}
+  footer a{color:#F0C46A}
+  footer ul{list-style:none;display:flex;flex-wrap:wrap;gap:.4rem 1.6rem}
+
+  /* ============ barre d'appel mobile ============ */
+  .callbar{
+    position:fixed;left:0;right:0;bottom:0;z-index:50;
+    display:flex;gap:.6rem;
+    padding:.6rem .8rem calc(.6rem + env(safe-area-inset-bottom));
+    background:rgba(38,32,22,.96);
+    backdrop-filter:blur(6px);
+  }
+  .callbar a{flex:1;display:flex;align-items:center;justify-content:center;gap:.5rem;text-decoration:none;font-weight:700;border-radius:10px;min-height:52px;font-size:1.05rem}
+  .callbar .cb-tel{background:var(--cta);color:#fff;font-variant-numeric:tabular-nums;box-shadow:0 4px 14px rgba(163,76,18,.5)}
+  .callbar .cb-map{background:transparent;color:var(--cream-on-dark);border:1.5px solid rgba(243,235,218,.5);flex:0 0 auto;padding:0 1.1rem}
+  @media (min-width:768px){.callbar{display:none}}
+  @media (max-width:767px){body{padding-bottom:76px}}
+
+  /* ============ ajustements mobile ============ */
+  @media (max-width:560px){
+    .hero h1{font-size:1.55rem;line-height:1.15;text-wrap:balance}
+    .hero h1 span{display:inline}
+    .hero .sub{font-size:1.02rem}
+    .cta-row{flex-wrap:nowrap;gap:.6rem}
+    .cta-row .btn-call{flex:1 1 0;min-width:0;padding:.75rem .8rem}
+    .cta-row .btn-call .num{font-size:1.12rem;gap:.4rem}
+    .cta-row .btn-call .num .icon{width:1.1em;height:1.1em}
+    .cta-row .btn-call .hint{font-size:.68rem}
+    .cta-row .btn-ghost{flex:1 1 0;min-width:0;padding:.75rem .6rem;justify-content:center;text-align:center;font-size:.92rem;line-height:1.2}
+  }
+
+  /* ============ reveal (uniquement si JS actif : html.js) ============ */
+  html.js .reveal{opacity:0;transform:translateY(22px);transition:opacity .6s ease,transform .6s ease}
+  html.js .reveal.in{opacity:1;transform:none}
+  @media (prefers-reduced-motion: reduce){html.js .reveal{opacity:1;transform:none}}
+</style>
+</head>
+<body>
+
+<header>
+  <div class="wrap topbar">
+    <a class="brand" href="#haut">
+      <span class="emblem" aria-hidden="true">
+        <svg viewBox="0 0 24 24"><circle cx="7" cy="8.2" r="2.6"/><path d="M9.4 8.2H19M16.2 8.2v2.4M12.6 8.2v1.7"/><path d="M3.4 20v-1.7c0-.5.4-.9.9-.9h3.4l2.3-3c.4-.5 1.1-.7 1.6-.3.4.2.6.6.6 1.1v2.1l3.7 1.2c.6.2 1 .8 1 1.4v.1"/><path d="M3.4 20h15.5"/></svg>
+      </span>
+      <span class="brand-text">
+        <span class="brand-name">Cordonnerie Serrurerie <em>SEFED</em></span>
+        <small>Artisan à Suresnes</small>
+      </span>
+    </a>
+    <a class="topbar-tel" href="tel:+33140991001" aria-label="Appeler la boutique au 01 40 99 10 01">
+      <svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M6.6 3h3l1.5 4.2-2 1.5a13 13 0 0 0 6.2 6.2l1.5-2 4.2 1.5v3c0 1.1-.9 2-2 2C10.4 19.9 4.1 13.6 3.6 5c-.1-1.1.9-2 2-2z"/></svg>
+      <span class="lbl">01 40 99 10 01</span>
+    </a>
+  </div>
+</header>
+
+<main id="haut">
+
+  <!-- ================= HERO ================= -->
+  <section class="hero" aria-labelledby="titre-hero">
+    <div class="wrap hero-grid">
+      <div>
+        <p class="kicker">Cordonnerie · Serrurerie · Suresnes</p>
+        <span class="rating-badge">
+          <span class="stars" aria-hidden="true">
+            <svg viewBox="0 0 24 24"><path d="M12 2.5l2.9 6 6.6.9-4.8 4.6 1.2 6.5L12 17.4 6.1 20.5l1.2-6.5L2.5 9.4l6.6-.9z"/></svg>
+            <svg viewBox="0 0 24 24"><path d="M12 2.5l2.9 6 6.6.9-4.8 4.6 1.2 6.5L12 17.4 6.1 20.5l1.2-6.5L2.5 9.4l6.6-.9z"/></svg>
+            <svg viewBox="0 0 24 24"><path d="M12 2.5l2.9 6 6.6.9-4.8 4.6 1.2 6.5L12 17.4 6.1 20.5l1.2-6.5L2.5 9.4l6.6-.9z"/></svg>
+            <svg viewBox="0 0 24 24"><path d="M12 2.5l2.9 6 6.6.9-4.8 4.6 1.2 6.5L12 17.4 6.1 20.5l1.2-6.5L2.5 9.4l6.6-.9z"/></svg>
+            <svg viewBox="0 0 24 24"><path d="M12 2.5l2.9 6 6.6.9-4.8 4.6 1.2 6.5L12 17.4 6.1 20.5l1.2-6.5L2.5 9.4l6.6-.9z"/></svg>
+          </span>
+          4,9/5 <span class="count">· plus de 290 avis Google</span>
+        </span>
+        <h1 id="titre-hero"><span>L'artisan que Suresnes</span> <span><em>recommande</em> les yeux fermés.</span></h1>
+        <p class="sub">Ressemelage soigné, clés et badges reproduits à la minute, dépannage serrurerie. Deux savoir-faire d'artisan réunis à la même adresse.</p>
+        <div class="cta-row">
+          <a class="btn-call" href="tel:+33140991001">
+            <span class="num">
+              <svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M6.6 3h3l1.5 4.2-2 1.5a13 13 0 0 0 6.2 6.2l1.5-2 4.2 1.5v3c0 1.1-.9 2-2 2C10.4 19.9 4.1 13.6 3.6 5c-.1-1.1.9-2 2-2z"/></svg>
+              01 40 99 10 01
+            </span>
+            <span class="hint">Appel direct à la boutique</span>
+          </a>
+          <a class="btn-ghost" href="#contact">
+            <svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 21s-7-6.1-7-11a7 7 0 0 1 14 0c0 4.9-7 11-7 11z"/><circle cx="12" cy="10" r="2.6"/></svg>
+            Adresse &amp; itinéraire
+          </a>
+        </div>
+        <p class="hero-note">
+          <svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3.2 2"/></svg>
+          Ouvert du mardi au samedi, 9h–13h et 14h30–19h · Sans rendez-vous
+        </p>
+      </div>
+      <figure class="photo-frame reveal">
+        <img src="assets/ressemelage-cuir.jpg" alt="Mocassin en cuir noir entièrement ressemelé en cuir, cousu main, présenté sur le comptoir de la boutique SEFED" width="1600" height="900" fetchpriority="high">
+        <figcaption>Ressemelage cuir cousu, réalisé à l'atelier</figcaption>
+      </figure>
+    </div>
+  </section>
+
+  <!-- ================= BANDEAU URGENCE ================= -->
+  <div class="urgence" role="note" aria-label="Situations d'urgence">
+    <div class="wrap">
+      <ul>
+        <li><svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><rect x="5" y="11" width="14" height="9" rx="2"/><path d="M8 11V7a4 4 0 0 1 8 0v4"/></svg>Porte claquée&nbsp;?</li>
+        <li><svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><circle cx="6.5" cy="12" r="3.2"/><path d="M9.7 12H21M17.5 12v3.2M13.8 12v2.4"/></svg>Clé cassée dans la serrure&nbsp;?</li>
+        <li><svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M3.5 16.5v-2.8c0-.6.4-1 1-1h4.3l2.9-3.9c.5-.7 1.4-.9 2.1-.4.5.3.7.8.7 1.4v2.7l4.7 1.5c.8.3 1.3 1 1.3 1.9v.6"/><path d="M3.5 16.5h17M11 12.7l1.3 1.3M12.9 11l1.3 1.3"/></svg>Chaussures à sauver avant un événement&nbsp;?</li>
+      </ul>
+      <p class="urgence-cta">
+        <span>Pour toute urgence ou information, contactez la boutique&nbsp;:</span>
+        <a class="tel" href="tel:+33140991001">
+          <svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M6.6 3h3l1.5 4.2-2 1.5a13 13 0 0 0 6.2 6.2l1.5-2 4.2 1.5v3c0 1.1-.9 2-2 2C10.4 19.9 4.1 13.6 3.6 5c-.1-1.1.9-2 2-2z"/></svg>
+          01 40 99 10 01
+        </a>
+      </p>
+    </div>
+  </div>
+
+  <!-- ================= SERVICES ================= -->
+  <section id="services" aria-labelledby="titre-services">
+    <div class="wrap">
+      <p class="kicker">Nos services</p>
+      <h2 id="titre-services">Deux métiers, un même niveau d'exigence</h2>
+      <p class="lead">La serrurerie pour les urgences et le quotidien. La cordonnerie pour tout ce qui mérite d'être réparé plutôt que remplacé.</p>
+
+      <div class="services-grid">
+        <article class="svc svc-serrurerie reveal">
+          <p class="svc-tag">Urgences &amp; quotidien</p>
+          <h3>
+            <svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><circle cx="6.5" cy="12" r="3.2"/><path d="M9.7 12H21M17.5 12v3.2M13.8 12v2.4"/></svg>
+            Serrurerie
+          </h3>
+          <ul>
+            <li>Dépannage et ouverture de porte</li>
+            <li>Reproduction de clés, y compris clés de sécurité</li>
+            <li>Badges d'accès d'immeuble</li>
+            <li>Changement et réparation de serrures</li>
+          </ul>
+          <p class="svc-note">Une urgence&nbsp;? Appelez le <a href="tel:+33140991001">01&nbsp;40&nbsp;99&nbsp;10&nbsp;01</a> avant de vous déplacer&nbsp;: le prix est annoncé au téléphone.</p>
+        </article>
+
+        <article class="svc svc-cordonnerie reveal">
+          <p class="svc-tag">Cordonnerie traditionnelle</p>
+          <h3>
+            <svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M3.5 16.5v-2.8c0-.6.4-1 1-1h4.3l2.9-3.9c.5-.7 1.4-.9 2.1-.4.5.3.7.8.7 1.4v2.7l4.7 1.5c.8.3 1.3 1 1.3 1.9v.6"/><path d="M3.5 16.5h17M11 12.7l1.3 1.3M12.9 11l1.3 1.3"/></svg>
+            Cordonnerie
+          </h3>
+          <ul>
+            <li>Ressemelage cuir ou caoutchouc</li>
+            <li>Réparation de chaussures et de bottes</li>
+            <li>Retouches et couture du cuir</li>
+            <li>Entretien cuir et nubuck</li>
+            <li>Ceintures et accessoires de maroquinerie</li>
+          </ul>
+          <figure class="svc-photo">
+            <img src="assets/ressemelage-vibram.jpg" alt="Chaussure de ville ressemelée avec une semelle Vibram neuve, posée sur l'établi de la boutique" loading="lazy" width="1600" height="1200">
+            <figcaption>Semelle neuve posée à l'atelier</figcaption>
+          </figure>
+        </article>
+      </div>
+
+      <p class="annexe reveal">
+        <strong>Et aussi, au comptoir&nbsp;:</strong>
+        <span>tampons &amp; gravures</span><span class="dot" aria-hidden="true">·</span>
+        <span>plaques minéralogiques</span><span class="dot" aria-hidden="true">·</span>
+        <span>plastification de documents</span><span class="dot" aria-hidden="true">·</span>
+        <span>produits d'entretien cuir &amp; nubuck</span>
+      </p>
+    </div>
+  </section>
+
+  <!-- ================= OFFRES / TRANSPARENCE ================= -->
+  <section class="offres" id="offres" aria-labelledby="titre-offres">
+    <div class="wrap">
+      <p class="kicker">Nos offres</p>
+      <h2 id="titre-offres">Le prix, annoncé avant les travaux</h2>
+      <p class="lead">Pas de forfaits standardisés ni de grille anonyme&nbsp;: chaque réparation est différente, et chaque prix est dit clairement, avant de commencer.</p>
+
+      <div class="offres-grid">
+        <article class="offre reveal">
+          <svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M6.6 3h3l1.5 4.2-2 1.5a13 13 0 0 0 6.2 6.2l1.5-2 4.2 1.5v3c0 1.1-.9 2-2 2C10.4 19.9 4.1 13.6 3.6 5c-.1-1.1.9-2 2-2z"/></svg>
+          <h3>Un devis avant tout</h3>
+          <p>Le prix est annoncé au téléphone ou au comptoir, avant toute intervention. Pas de mauvaise surprise au moment de payer.</p>
+        </article>
+        <article class="offre reveal">
+          <svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M3.5 11.6V5.2c0-.9.8-1.7 1.7-1.7h6.4c.5 0 .9.2 1.2.5l7.4 7.4c.7.7.7 1.7 0 2.4l-6.1 6.1c-.7.7-1.7.7-2.4 0l-7.7-7.7c-.3-.3-.5-.7-.5-1.2z"/><circle cx="8.2" cy="8.2" r="1.4"/></svg>
+          <h3>Des tarifs d'artisan</h3>
+          <p>Des prix jugés honnêtes et raisonnables par les clients eux-mêmes. C'est ce qui revient le plus souvent dans les avis.</p>
+        </article>
+        <article class="offre reveal">
+          <svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="6" width="18" height="13" rx="2"/><path d="M3 10h18M7 15h4"/></svg>
+          <h3>Chèque ou espèces</h3>
+          <p>La carte bancaire n'est <strong>pas acceptée</strong> à la boutique. Pensez à prévoir un chèque ou des espèces avant de venir.</p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= CONFIANCE ================= -->
+  <section id="confiance" aria-labelledby="titre-confiance">
+    <div class="wrap">
+      <p class="kicker">Ils en parlent mieux que nous</p>
+      <h2 id="titre-confiance">Une réputation bâtie en boutique</h2>
+
+      <div class="confiance-head">
+        <div class="score reveal" role="img" aria-label="Note moyenne de 4,9 sur 5, sur plus de 290 avis Google">
+          <div class="val">4,9<span style="font-size:1.8rem">/5</span></div>
+          <div class="stars" aria-hidden="true">
+            <svg viewBox="0 0 24 24"><path d="M12 2.5l2.9 6 6.6.9-4.8 4.6 1.2 6.5L12 17.4 6.1 20.5l1.2-6.5L2.5 9.4l6.6-.9z"/></svg>
+            <svg viewBox="0 0 24 24"><path d="M12 2.5l2.9 6 6.6.9-4.8 4.6 1.2 6.5L12 17.4 6.1 20.5l1.2-6.5L2.5 9.4l6.6-.9z"/></svg>
+            <svg viewBox="0 0 24 24"><path d="M12 2.5l2.9 6 6.6.9-4.8 4.6 1.2 6.5L12 17.4 6.1 20.5l1.2-6.5L2.5 9.4l6.6-.9z"/></svg>
+            <svg viewBox="0 0 24 24"><path d="M12 2.5l2.9 6 6.6.9-4.8 4.6 1.2 6.5L12 17.4 6.1 20.5l1.2-6.5L2.5 9.4l6.6-.9z"/></svg>
+            <svg viewBox="0 0 24 24"><path d="M12 2.5l2.9 6 6.6.9-4.8 4.6 1.2 6.5L12 17.4 6.1 20.5l1.2-6.5L2.5 9.4l6.6-.9z"/></svg>
+          </div>
+          <p><strong>Plus de 290 avis</strong> publiés sur Google</p>
+        </div>
+        <p class="lead">La réputation de la boutique se construit au comptoir&nbsp;: un travail soigné, des délais tenus, des prix annoncés franchement. Les avis Google ne font que le confirmer.</p>
+      </div>
+
+      <div class="avis-grid">
+        <article class="avis reveal">
+          <blockquote>Réparation prête au jour promis et travail impeccable&nbsp;: on repart avec des chaussures comme neuves.</blockquote>
+          <p class="theme">Rapidité &amp; efficacité</p>
+        </article>
+        <article class="avis reveal">
+          <blockquote>Un accueil chaleureux et le sens du geste commercial. Le genre de boutique d'où l'on ressort avec le sourire.</blockquote>
+          <p class="theme">Accueil du patron</p>
+        </article>
+        <article class="avis reveal">
+          <blockquote>Des tarifs honnêtes, nettement plus raisonnables que ce qui m'avait été annoncé ailleurs pour le même travail.</blockquote>
+          <p class="theme">Prix honnêtes</p>
+        </article>
+        <article class="avis reveal">
+          <blockquote>Dépannage un soir, en urgence, traité avec réactivité et sérieux. Du vrai travail d'artisan, sur la serrurerie comme sur la cordonnerie.</blockquote>
+          <p class="theme">Urgences, même en soirée</p>
+        </article>
+      </div>
+      <div class="confiance-photos">
+        <figure class="photo-frame reveal">
+          <img src="assets/atelier.jpg" alt="Établi de l'atelier de cordonnerie : semelles en cours de reconstruction, outils et clous de cordonnier" loading="lazy" width="1600" height="2133" style="object-position:center 30%">
+          <figcaption>L'établi de l'atelier</figcaption>
+        </figure>
+        <figure class="photo-frame reveal">
+          <img src="assets/vitrine-ressemelages.jpg" alt="Trois paires de chaussures fraîchement ressemelées en cuir, alignées en vitrine de la boutique" loading="lazy" width="960" height="469">
+          <figcaption>Ressemelages du jour, en vitrine</figcaption>
+        </figure>
+      </div>
+
+      <div class="local-strip reveal">
+        <span>
+          <svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 21s-7-6.1-7-11a7 7 0 0 1 14 0c0 4.9-7 11-7 11z"/><circle cx="12" cy="10" r="2.6"/></svg>
+          Artisan installé à Suresnes, au 11 Allée du 8 Mai 1945
+        </span>
+        <span>
+          <svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12.7" cy="4.3" r="1.9"/><path d="M12.4 7l.5 5h4.6M15.8 12.5l2.3 4.9h1.9"/><path d="M14.6 17.3a4.7 4.7 0 1 1-5.3-6.6"/></svg>
+          Entrée accessible aux personnes à mobilité réduite
+        </span>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= FAQ ================= -->
+  <section class="faq" id="faq" aria-labelledby="titre-faq">
+    <div class="wrap">
+      <p class="kicker">Questions fréquentes</p>
+      <h2 id="titre-faq">Ce qu'on nous demande le plus</h2>
+
+      <div class="faq-list">
+        <details class="reveal">
+          <summary>Faites-vous les dépannages en urgence, y compris le soir&nbsp;?<svg class="chev" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M6 9l6 6 6-6"/></svg></summary>
+          <p class="rep">Oui, les urgences font partie du métier. Les clients saluent régulièrement des dépannages traités avec réactivité, y compris en soirée. Le bon réflexe&nbsp;: appelez le <a href="tel:+33140991001">01&nbsp;40&nbsp;99&nbsp;10&nbsp;01</a>, la situation s'évalue en deux minutes au téléphone.</p>
+        </details>
+        <details class="reveal">
+          <summary>Puis-je payer par carte bancaire&nbsp;?<svg class="chev" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M6 9l6 6 6-6"/></svg></summary>
+          <p class="rep">Non, la boutique accepte uniquement les <strong>chèques et les espèces</strong>. Mieux vaut le prévoir avant de passer.</p>
+        </details>
+        <details class="reveal">
+          <summary>Combien coûte la reproduction d'une clé ou d'un badge d'immeuble&nbsp;?<svg class="chev" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M6 9l6 6 6-6"/></svg></summary>
+          <p class="rep">Le prix dépend du modèle&nbsp;: clé simple, clé de sécurité ou badge. Il est annoncé <strong>avant</strong> toute reproduction, au comptoir ou au téléphone. Appelez le <a href="tel:+33140991001">01&nbsp;40&nbsp;99&nbsp;10&nbsp;01</a> pour un prix immédiat.</p>
+        </details>
+        <details class="reveal">
+          <summary>Faites-vous les clés de sécurité (protégées ou brevetées)&nbsp;?<svg class="chev" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M6 9l6 6 6-6"/></svg></summary>
+          <p class="rep">Oui. La reproduction de clés de sécurité et de badges d'accès d'immeuble fait partie des services courants de la boutique. Pour un modèle protégé, appelez d'abord&nbsp;: on vous dira exactement quoi apporter.</p>
+        </details>
+        <details class="reveal">
+          <summary>Combien de temps pour un ressemelage&nbsp;?<svg class="chev" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M6 9l6 6 6-6"/></svg></summary>
+          <p class="rep">Le délai dépend de la réparation et de la matière (cuir ou caoutchouc). Il vous est annoncé au moment du dépôt, en même temps que le prix. La rapidité du service est l'un des points les plus salués dans les avis.</p>
+        </details>
+        <details class="reveal">
+          <summary>Faut-il un rendez-vous, ou puis-je passer directement&nbsp;?<svg class="chev" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M6 9l6 6 6-6"/></svg></summary>
+          <p class="rep">Passez directement, sans rendez-vous, du mardi au samedi, 9h–13h et 14h30–19h. Pour une urgence serrurerie, un appel avant de vous déplacer fait gagner du temps.</p>
+        </details>
+        <details class="reveal">
+          <summary>Intervenez-vous à domicile pour un dépannage de serrure&nbsp;?<svg class="chev" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M6 9l6 6 6-6"/></svg></summary>
+          <p class="rep">Décrivez votre situation au <a href="tel:+33140991001">01&nbsp;40&nbsp;99&nbsp;10&nbsp;01</a>&nbsp;: selon le cas, l'artisan vous indique immédiatement la meilleure marche à suivre, et le prix, avant tout déplacement.</p>
+        </details>
+        <details class="reveal">
+          <summary>Êtes-vous ouverts le samedi&nbsp;? Quels sont vos horaires exacts&nbsp;?<svg class="chev" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M6 9l6 6 6-6"/></svg></summary>
+          <p class="rep">Oui, le samedi est ouvert. La boutique est ouverte du <strong>mardi au samedi, 9h–13h et 14h30–19h</strong>. Fermé dimanche et lundi.</p>
+        </details>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= CONTACT ================= -->
+  <section id="contact" aria-labelledby="titre-contact">
+    <div class="wrap">
+      <p class="kicker">Contact</p>
+      <h2 id="titre-contact">Appelez, ou passez directement à la boutique</h2>
+
+      <div class="contact-grid">
+        <div class="contact-card reveal">
+          <a class="btn-call" href="tel:+33140991001">
+            <span class="num">
+              <svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M6.6 3h3l1.5 4.2-2 1.5a13 13 0 0 0 6.2 6.2l1.5-2 4.2 1.5v3c0 1.1-.9 2-2 2C10.4 19.9 4.1 13.6 3.6 5c-.1-1.1.9-2 2-2z"/></svg>
+              01 40 99 10 01
+            </span>
+            <span class="hint">Le moyen le plus rapide de nous joindre</span>
+          </a>
+
+          <div class="contact-line">
+            <svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 21s-7-6.1-7-11a7 7 0 0 1 14 0c0 4.9-7 11-7 11z"/><circle cx="12" cy="10" r="2.6"/></svg>
+            <p><strong>Cordonnerie Serrurerie SEFED</strong>
+              11 Allée du 8 Mai 1945, 92150 Suresnes<br>
+              <a href="https://www.google.com/maps/dir/?api=1&destination=Cordonnerie+Serrurerie+SEFED%2C+11+All%C3%A9e+du+8+Mai+1945%2C+92150+Suresnes" target="_blank" rel="noopener">Lancer l'itinéraire dans Google Maps</a>
+            </p>
+          </div>
+
+          <div class="contact-line">
+            <svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3.2 2"/></svg>
+            <div>
+              <strong>Horaires</strong>
+              <table class="horaires">
+                <tr class="off"><th scope="row">Lundi</th><td>Fermé</td></tr>
+                <tr><th scope="row">Mardi</th><td>9h–13h · 14h30–19h</td></tr>
+                <tr><th scope="row">Mercredi</th><td>9h–13h · 14h30–19h</td></tr>
+                <tr><th scope="row">Jeudi</th><td>9h–13h · 14h30–19h</td></tr>
+                <tr><th scope="row">Vendredi</th><td>9h–13h · 14h30–19h</td></tr>
+                <tr><th scope="row">Samedi</th><td>9h–13h · 14h30–19h</td></tr>
+                <tr class="off"><th scope="row">Dimanche</th><td>Fermé</td></tr>
+              </table>
+            </div>
+          </div>
+
+          <div class="contact-line">
+            <svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="6" width="18" height="13" rx="2"/><path d="M3 10h18M7 15h4"/></svg>
+            <p><strong>Paiement</strong> Chèque ou espèces uniquement. La carte bancaire n'est pas acceptée.</p>
+          </div>
+
+          <div class="contact-line">
+            <svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12.7" cy="4.3" r="1.9"/><path d="M12.4 7l.5 5h4.6M15.8 12.5l2.3 4.9h1.9"/><path d="M14.6 17.3a4.7 4.7 0 1 1-5.3-6.6"/></svg>
+            <p><strong>Accessibilité</strong> Entrée accessible aux personnes à mobilité réduite.</p>
+          </div>
+
+          <div class="contact-line">
+            <svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M15 3h-2.5A3.5 3.5 0 0 0 9 6.5V9H6.5v3.5H9V21h3.7v-8.5h2.8l.5-3.5h-3.3V7c0-.6.4-1 1-1H15z"/></svg>
+            <p><strong>Sur Facebook</strong> <a href="https://www.facebook.com/cordonnerieSEFED92/" target="_blank" rel="noopener">Suivre l'actualité de la boutique</a></p>
+          </div>
+        </div>
+
+        <div class="map-band reveal">
+          <iframe
+            src="https://maps.google.com/maps?q=Cordonnerie%20Serrurerie%20SEFED%2C%2011%20All%C3%A9e%20du%208%20Mai%201945%2C%2092150%20Suresnes&z=16&output=embed"
+            title="Plan d'accès : Cordonnerie Serrurerie SEFED, 11 Allée du 8 Mai 1945, 92150 Suresnes"
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+            allowfullscreen></iframe>
+          <div class="map-chip">
+            <svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 21s-7-6.1-7-11a7 7 0 0 1 14 0c0 4.9-7 11-7 11z"/><circle cx="12" cy="10" r="2.6"/></svg>
+            <p><strong>11 Allée du 8 Mai 1945</strong><small>92150 Suresnes</small></p>
+            <a class="chip-btn" href="https://www.google.com/maps/dir/?api=1&destination=Cordonnerie+Serrurerie+SEFED%2C+11+All%C3%A9e+du+8+Mai+1945%2C+92150+Suresnes" target="_blank" rel="noopener">Itinéraire</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer>
+  <div class="wrap">
+    <p class="id">Cordonnerie Serrurerie SEFED<br>
+      <span style="font-family:'Alegreya Sans',sans-serif;font-weight:400;font-size:.92rem">11 Allée du 8 Mai 1945, 92150 Suresnes · <a href="tel:+33140991001">01 40 99 10 01</a></span>
+    </p>
+    <ul>
+      <li><a href="#services">Services</a></li>
+      <li><a href="#offres">Offres</a></li>
+      <li><a href="#faq">FAQ</a></li>
+      <li><a href="#contact">Contact</a></li>
+      <li><a href="https://www.facebook.com/cordonnerieSEFED92/" target="_blank" rel="noopener">Facebook</a></li>
+    </ul>
+  </div>
+</footer>
+
+<!-- barre d'appel mobile -->
+<nav class="callbar" aria-label="Actions rapides">
+  <a class="cb-tel" href="tel:+33140991001">
+    <svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M6.6 3h3l1.5 4.2-2 1.5a13 13 0 0 0 6.2 6.2l1.5-2 4.2 1.5v3c0 1.1-.9 2-2 2C10.4 19.9 4.1 13.6 3.6 5c-.1-1.1.9-2 2-2z"/></svg>
+    Appeler · 01 40 99 10 01
+  </a>
+  <a class="cb-map" href="#contact" aria-label="Voir l'adresse et l'itinéraire">
+    <svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 21s-7-6.1-7-11a7 7 0 0 1 14 0c0 4.9-7 11-7 11z"/><circle cx="12" cy="10" r="2.6"/></svg>
+  </a>
+</nav>
+
+<script>
+  // apparition douce au scroll (désactivée si reduced motion)
+  const mq = window.matchMedia('(prefers-reduced-motion: reduce)');
+  if (!mq.matches && 'IntersectionObserver' in window) {
+    const io = new IntersectionObserver((entries) => {
+      entries.forEach(e => { if (e.isIntersecting) { e.target.classList.add('in'); io.unobserve(e.target); } });
+    }, { threshold: 0.12, rootMargin: '0px 0px -40px 0px' });
+    document.querySelectorAll('.reveal').forEach(el => io.observe(el));
+  } else {
+    document.querySelectorAll('.reveal').forEach(el => el.classList.add('in'));
+  }
+</script>
+</body>
+</html>
